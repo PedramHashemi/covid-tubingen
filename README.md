@@ -1,1 +1,1 @@
-# covid-tubingen
+# Covid-Tübingen
