@@ -25,7 +25,7 @@ def index():
 
     fig.show()
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
-    return render_template('notdash.html', graphJSON=graphJSON)
+    return render_template('index.html', plot=graphJSON)
 
 
 if __name__ == "__main__":
